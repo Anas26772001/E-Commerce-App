@@ -81,7 +81,7 @@ export default function Orders() {
                             </p>
                         </div>
                         {/* Right side on confirmed order */}
-                        <ul className='flex flex-col  gap-3'>
+                        <ul className='flex flex-col items-center justify-center md:items-start md:justify-center  gap-3'>
                             <li className='flex justify-between gap-2 items-center'>
                                 <h2 className='text-[17px] font-bold text-darkPrimary'>Ordered</h2>
                                 <CircleCheckBig className='text-primary' />
