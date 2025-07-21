@@ -64,7 +64,7 @@ export default function Orders() {
 
                         })}
                     </div >
-                    <div className='  py-1 flex flex-col md:flex-row justify-between items-center '>
+                    <div className='py-1 flex flex-col md:flex-row justify-between items-center '>
                         {/* Left Side on confirmed order */}
                         <div className='flex flex-col gap-2'>
                             <p className='text-darkPrimary text-[18px] font-bold'>
@@ -81,7 +81,7 @@ export default function Orders() {
                             </p>
                         </div>
                         {/* Right side on confirmed order */}
-                        <ul className='flex flex-col min-w-[200px]  gap-3'>
+                        <ul className='flex flex-col  gap-3'>
                             <li className='flex justify-between gap-2 items-center'>
                                 <h2 className='text-[17px] font-bold text-darkPrimary'>Ordered</h2>
                                 <CircleCheckBig className='text-primary' />
