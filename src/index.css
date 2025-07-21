@@ -1,0 +1,141 @@
+@import 'animate.css';
+@import "tailwindcss";
+@import '@fontsource-variable/outfit';
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@theme {
+  --font-outfit: 'Outfit Variable', sans-serif;
+  --color-primary: #00cc74;
+  --color-darkPrimary: #01854c;
+  --color-mainLight: #f0f3f2
+}
+
+@layer components {
+  .search-input {
+    @apply rounded-full min-w-[250px] focus:min-w-[350px] text-[15px] text-darkPrimary px-3 py-2 outline-none border border-gray-300 focus:border-darkPrimary transition-all duration-150
+  }
+
+  .active-link {
+    @apply text-primary font-extrabold text-[16px]
+  }
+
+  .normal-link {
+    @apply text-gray-700 text-[16px]
+  }
+
+  .input-filed {
+    @apply w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-darkPrimary focus:border-darkPrimary outline-none transition-all
+  }
+
+  .input-guide {
+    @apply text-darkPrimary text-[12px] mt-1 px-4
+  }
+
+  .eye-icon {
+    @apply size-4 text-darkPrimary
+  }
+
+  .social-icon-effect {
+    @apply text-darkPrimary size-4.5 group-hover:-translate-y-2 cursor-pointer transition-all duration-250
+  }
+}
+
+@utility container {
+  margin: 0 auto;
+   @media screen and (width >=64rem) {
+    max-width: 60rem
+  }
+
+  @media screen and (width >=96rem) {
+    max-width: 75rem
+  }
+ 
+}
+
+body {
+  @apply font-outfit
+}
+
+.swiper-slide-active {
+  border: 2px solid #00cc74;
+  transition: border 0.3s ease-in-out;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: white;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img.image {
+  display: block;
+  height: 200px;
+  object-fit: cover;
+}
+
+::selection {
+  background-color: #00cc74;
+  color: white
+}
+
+/*  SWiper in Categories in home page :  */
+.swiper-button-next, .swiper-button-prev {
+  background-color: transparent;
+  height: 100% !important;
+  top: 0 !important;
+  right: 0 !important;
+  padding-inline: 25px !important;
+  color: white;
+  transition: all .3s ease-in;
+  opacity: 1;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+  background-color: rgba(0, 0, 0, .3);
+  color: white;
+  font-size: 25px !important;
+  padding: 15px !important;
+  border-radius: 50% !important;
+}
+
+.swiper-button-prev {
+  left: 0 !important;
+}
+
+
+
+.swiper-pagination-bullet {
+  width: 15px !important;
+  height: 15px !important;
+  background-color: #00cc74 !important;
+  opacity: .4 !important;
+  margin: 0 4px !important;
+  border-radius: 50% !important;
+  transition: all 0.3s ease;
+}
