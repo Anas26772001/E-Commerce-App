@@ -14,7 +14,6 @@ export default function Products() {
     const [products, setProducts] = useState(null)
     const [filteredProducts, setFilteredProducts] = useState(null)
     const [searchValue, setSearchValue] = useState('')
-
     const getAllProducts = async () => {
         setIsLoading(true)
         try {
@@ -28,11 +27,9 @@ export default function Products() {
             setIsLoading(false)
         }
     }
-
     useEffect(() => {
         getAllProducts()
     }, [])
-
     // Filteration in products 
     useEffect(() => {
         if (products) {
@@ -42,9 +39,7 @@ export default function Products() {
                     return product.title.toLowerCase().includes(loweredCaseSearchedValue)
                 })
                 setFilteredProducts(filteredProducts)
-            } else {
-                setFilteredProducts(products)
-            }
+            } else { setFilteredProducts(products) }
         }
     }, [searchValue, products])
     if (isLoading) {

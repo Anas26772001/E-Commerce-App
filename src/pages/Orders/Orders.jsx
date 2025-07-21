@@ -1,5 +1,5 @@
 import axios from 'axios'
-import  { useContext, useEffect, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import { AuthContext } from '../../Context/AuthContext'
 import DetailsLoader from '../../components/Details-loader/DetailsLoader'
 import ProductOrdered from '../../components/ProductOrdered/ProductOrdered'
@@ -64,7 +64,7 @@ export default function Orders() {
 
                         })}
                     </div >
-                    <div className='  py-1 flex justify-between items-center '>
+                    <div className='  py-1 flex flex-col md:flex-row justify-between items-center '>
                         {/* Left Side on confirmed order */}
                         <div className='flex flex-col gap-2'>
                             <p className='text-darkPrimary text-[18px] font-bold'>
