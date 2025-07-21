@@ -66,7 +66,7 @@ export default function Orders() {
                     </div >
                     <div className='py-1 flex flex-col md:flex-row justify-between items-center '>
                         {/* Left Side on confirmed order */}
-                        <div className='flex flex-col gap-2'>
+                        <div className='flex flex-col items-center justify-center md:justify-baseline md:items-start my-4  gap-2'>
                             <p className='text-darkPrimary text-[18px] font-bold'>
                                 Products Quantity : <span className='text-primary text-[15px] font-medium'>{item?.cartItems?.length}</span>
                             </p>
@@ -80,6 +80,7 @@ export default function Orders() {
                                 Total Order Price : <span className='text-primary text-[15px] font-medium'>{item?.totalOrderPrice} EGP</span>
                             </p>
                         </div>
+                        <div className="border md:hidden border-gray-200 w-full my-4"></div>
                         {/* Right side on confirmed order */}
                         <ul className='flex flex-col items-center justify-center md:items-start md:justify-center  gap-3'>
                             <li className='flex justify-between gap-2 items-center'>
