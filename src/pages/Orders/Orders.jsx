@@ -23,7 +23,9 @@ export default function Orders() {
     useEffect(() => {
         getUserOrders()
     }, [])
-    if (isLoading) (<DetailsLoader />)
+    if (isLoading) {
+        return <DetailsLoader />
+    }
     return (
         <div className="container min-h-[70vh] flex flex-col gap-5 my-5">
             {/* Track Orders Header */}
