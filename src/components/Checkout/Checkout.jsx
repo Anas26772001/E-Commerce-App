@@ -17,8 +17,9 @@ export default function Checkout({ totalPrice }) {
             const { data } = await axios.post(`https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}?url=http://localhost:5173`,
                 { shippingAddress: values },
                 { headers: { token: localStorage.getItem('token') } })
+            console.log(data)
             if (data.status == 'success') {
-                window.location.href = 'https://e-commerce-app-nine-rho.vercel.app/allorders'
+                window.location.href = data.session.url
             }
         } catch (error) {
             console.log(error.message)
