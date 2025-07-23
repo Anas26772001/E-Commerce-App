@@ -14,13 +14,11 @@ export default function Checkout({ totalPrice }) {
     //  ^ Pay Online
     async function payOnline(values) {
         try {
-            const forwardUrl = `https://e-commerce-app-nine-rho.vercel.app/`
-
-            const { data } = await axios.post(`https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}?url=${forwardUrl}`,
+            const { data } = await axios.post(`https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}?url=http://localhost:5173`,
                 { shippingAddress: values },
                 { headers: { token: localStorage.getItem('token') } })
             if (data.status == 'success') {
-                window.location.href = data.session.url
+                window.location.href = 'https://e-commerce-app-nine-rho.vercel.app/allorders'
             }
         } catch (error) {
             console.log(error.message)
