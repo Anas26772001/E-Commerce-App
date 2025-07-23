@@ -18,7 +18,7 @@ export default function Checkout({ totalPrice }) {
                 { shippingAddress: values },
                 { headers: { token: localStorage.getItem('token') } })
             if (data.status == 'success') {
-                window.location.href = data.session.url
+                window.location.href = 'https://e-commerce-app-nine-rho.vercel.app/allorders'
             }
         } catch (error) {
             console.log(error.message)
