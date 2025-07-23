@@ -14,7 +14,7 @@ export default function Checkout({ totalPrice }) {
     //  ^ Pay Online
     async function payOnline(values) {
         try {
-            const { data } = await axios.post(`https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}?url=https://e-commerce-app-nine-rho.vercel.app`,
+            const { data } = await axios.post(`https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}?url=https://e-commerce-app-nine-rho.vercel.app/`,
                 { shippingAddress: values },
                 { headers: { token: localStorage.getItem('token') } })
             console.log(data)
