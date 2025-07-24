@@ -68,6 +68,13 @@ This project was developed using a modern stack of technologies to ensure optima
 
  ![UseParams](https://img.shields.io/badge/useParams-61DAFB?style=for-the-badge&logo=react&logoColor=white)
 `useParams` Hook:** A React Router Hook that allows access to URL parameters.
+## 🌐 API Integration
+
+This project leverages a custom e-commerce API to provide dynamic product data, user authentication, and comprehensive shopping cart management, ensuring a robust and interactive user experience.
+
+* **E-commerce Backend API:** A dedicated RESTful API serving as the backend for the e-commerce functionalities, handling product listings, user management, order processing, and more.
+    * **Purpose in Project:** Used to fetch comprehensive product listings, display detailed product information, manage user authentication (login/registration), handle shopping cart      operations (add/remove items), and process order simulations.
+    * **Base URL:** `https://ecommerce.routemisr.com`
 
 
 
