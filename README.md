@@ -93,7 +93,7 @@ This project leverages a custom e-commerce API to provide dynamic product data, 
 Feel free to connect with me!
 * **Anas Adel**
 * **GitHub:** [Anas26772001](https://github.com/Anas26772001)
-* **Email:** [your.email@example.com](mailto:anassawah267@gmail.com)
+* **Email:** [your.email@example.com](anassawah267@gmail.com)
 
 ---
 
