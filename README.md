@@ -6,19 +6,19 @@ A comprehensive React e-commerce platform featuring dynamic product listings, ca
 ### 🚀 Overview of project pages :
 ##### 🏠 Home Page :
 The main landing page showcasing featured products and latest offers. It provides quick access to major store categories, ensuring an easy and engaging Browse experience.
-![Home-Page-Image](Images/Home-Page.png)
+![Home-Page-Image](public/Images/Home-Page.png)
 #### 🏠 Another Section in Home Page :
 This is the section of products , You can add products to cart , wishlist , and view the detailes of specific product.
-![Shop-By-Products-Image](Images/Popular-Products-Page.png)
+![Shop-By-Products-Image](public/Images/Popular-Products-Page.png)
 ##### Products Page :
 Displays all available products with advanced filtering and search options, helping users quickly find what they're looking for.
-![Products-Page-Image](Images/Products-Page.png)
+![Products-Page-Image](public/Images/Products-Page.png)
 ##### Categories Page :
 A page to display all the categories. You can get all the products that are available in a specific category.
-![Categories-Page-Image](Images/Categoriies-Page.png)
+![Categories-Page-Image](public/Images/Categoriies-Page.png)
 ##### Check out Section : 
 In this section you can place an order and there is a cash or online payment option if you want.
-![Check-Out-Page-image](Images/Check-Out-Page.png)
+![Check-Out-Page-image](public/Images/Check-Out-Page.png)
 
 ## ✨ Key Features
 
