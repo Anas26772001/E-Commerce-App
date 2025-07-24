@@ -19,7 +19,7 @@ export default function Checkout({ totalPrice }) {
                 { headers: { token: localStorage.getItem('token') } })
             console.log(data)
             if (data.status == 'success') {
-                window.location.href = data.session.url
+                window.location.href = data.session.success_url
             }
         } catch (error) {
             console.log(error.message)
