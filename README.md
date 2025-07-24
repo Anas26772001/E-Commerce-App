@@ -61,7 +61,7 @@ This project was developed using a modern stack of technologies to ensure optima
 ### React Hooks
 
  ![UseState](https://img.shields.io/badge/useState-61DAFB?style=for-the-badge&logo=react&logoColor=white)
-**`useState` Hook:** A fundamental React Hook that allows functional components to manage and update their state.
+`useState` Hook:** A fundamental React Hook that allows functional components to manage and update their state.
 
  ![UseEffect](https://img.shields.io/badge/useEffect-61DAFB?style=for-the-badge&logo=react&logoColor=white)
 `useEffect` Hook:** Used for performing side effects in functional components, such as data fetching, subscriptions, or manually changing the DOM.
