@@ -10,6 +10,11 @@ This is the upper section of the page that contains the header and inside it the
 #### 🏠 Another Section in Home Page :
 This is the section of products , You can add products to cart , wishlist , and view the detailes of specific product.
 ![Shop-By-Products-Image](Images/Popular-Products-Page.png)
+##### Products Page :
+On this page you can search for specific products and if they match, the products will be displayed.
+![Products-Page-Image](Images/Products-Page.png)
+
+
 
 
 
