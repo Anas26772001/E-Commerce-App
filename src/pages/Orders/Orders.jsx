@@ -24,7 +24,7 @@ export default function Orders() {
         getUserOrders()
     }, [])
     if (isLoading) {
-        return <DetailsLoader />
+        return <DetailsLoader/>
     }
     return (
         <div className="container min-h-[70vh] flex flex-col gap-5 my-5">
