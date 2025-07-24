@@ -13,6 +13,10 @@ This is the section of products , You can add products to cart , wishlist , and 
 ##### Products Page :
 On this page you can search for specific products and if they match, the products will be displayed.
 ![Products-Page-Image](Images/Products-Page.png)
+##### Categories Page :
+A page to display all the categories. You can get all the products that are available in a specific category.
+![Categories-Page-Image](Images/Categoriies-Page.png)
+
 
 
 
