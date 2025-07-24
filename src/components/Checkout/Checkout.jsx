@@ -118,9 +118,9 @@ export default function Checkout({ totalPrice }) {
                             <div className="btns flex justify-center gap-5 my-4 items-center">
                                 {/* cash order */}
                                 <button type='submit'
-                                    // onClick={() => {
-                                    //     setPaymentMethod('cash')
-                                    // }}
+                                    onClick={() => {
+                                        setPaymentMethod('cash')
+                                    }}
                                     className='cash-order-btn cursor-pointer rounded-xl flex justify-center items-center gap-2 bg-primary px-4 py-2'>
                                     <img src="/cash1-DfoK3QaK.png" alt='pay-cash' className='size-8' />
                                     <span className='text-white text-[16px]'>Cash order</span>
