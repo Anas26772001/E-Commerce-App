@@ -19,7 +19,7 @@ A page to display all the categories. You can get all the products that are avai
 ##### Check out Section : 
 In this section you can place an order and there is a cash or online payment option if you want.
 ![Check-Out-Page-image](Images/Check-Out-Page.png)
-##### If you want to see the other features, go to the demo link.<img width="408" height="408" alt="image" src="https://github.com/user-attachments/assets/28dc17c5-f65f-453d-87af-a1b8d6975a6f" />
+##### If you want to see the other features, go to the demo link.
 
 
 
