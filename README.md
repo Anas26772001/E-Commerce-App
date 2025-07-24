@@ -5,13 +5,13 @@ A comprehensive React e-commerce platform featuring dynamic product listings, ca
 ##### 🌐 visit the website: [Fresh Cart Live Demo](https://e-commerce-app-nine-rho.vercel.app/)
 ### 🚀 Overview of project pages :
 ##### 🏠 Home Page :
-This is the upper section of the page that contains the header and inside it the navbar, then a section dividing it, and the left part contains a swiper consisting of images and the right part contains two images.
+The main landing page showcasing featured products and latest offers. It provides quick access to major store categories, ensuring an easy and engaging Browse experience.
 ![Home-Page-Image](Images/Home-Page.png)
 #### 🏠 Another Section in Home Page :
 This is the section of products , You can add products to cart , wishlist , and view the detailes of specific product.
 ![Shop-By-Products-Image](Images/Popular-Products-Page.png)
 ##### Products Page :
-On this page you can search for specific products and if they match, the products will be displayed.
+Displays all available products with advanced filtering and search options, helping users quickly find what they're looking for.
 ![Products-Page-Image](Images/Products-Page.png)
 ##### Categories Page :
 A page to display all the categories. You can get all the products that are available in a specific category.
@@ -85,9 +85,18 @@ This project was developed using a modern stack of technologies to ensure optima
 This project leverages a custom e-commerce API to provide dynamic product data, user authentication, and comprehensive shopping cart management, ensuring a robust and interactive user experience.
 
 * **E-commerce Backend API:** A dedicated RESTful API serving as the backend for the e-commerce functionalities, handling product listings, user management, order processing, and more.
-    * **Purpose in Project:** Used to fetch comprehensive product listings, display detailed product information, manage user authentication (login/registration), handle shopping cart      operations (add/remove items), and process order simulations.
+    * **Purpose in Project:** Used to fetch comprehensive product listings, display detailed product information, manage user authentication (login/registration), handle shopping cart operations (add/remove items), and process order simulations.
     * **Base URL:** `https://ecommerce.routemisr.com`
+    * **Documentation:** [E-commerce Backend API Documentation](https://anas-adel267.postman.co/workspace/452cdd52-cd62-4829-8166-b2f62c8afb2e/documentation/44326369-fdb0c61e-a65d-4388-93b3-b8980ed1d362)
 
+## 📧 Contact
+Feel free to connect with me!
+* **Anas Adel**
+* **GitHub:** [Anas26772001](https://github.com/Anas26772001)
+* **LinkedIn:** [Your LinkedIn Profile](**https://www.linkedin.com/in/anas-adel-474388334/**)
+* **Email:** [your.email@example.com](mailto:anassawah267@gmail.com)
+
+---
 
 
 
