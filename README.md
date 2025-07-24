@@ -1,4 +1,4 @@
-<img width="408" height="408" alt="image" src="https://github.com/user-attachments/assets/57b2dbb9-0ee7-4f2b-b002-c422e02e8a93" />## Fresh Cart | E-Commerce-App
+## Fresh Cart | E-Commerce-App
 
 A comprehensive React e-commerce platform featuring dynamic product listings, categories, brands, cart, wishlist , secure cash/online payments, order tracking, and related product suggestions. Fully responsive.
 
