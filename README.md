@@ -16,6 +16,10 @@ On this page you can search for specific products and if they match, the product
 ##### Categories Page :
 A page to display all the categories. You can get all the products that are available in a specific category.
 ![Categories-Page-Image](Images/Categoriies-Page.png)
+##### Check out Section : 
+In this section you can place an order and there is a cash or online payment option if you want.
+![Check-Out-Page-image](Images/Check-Out-Page.png)
+
 
 
 
