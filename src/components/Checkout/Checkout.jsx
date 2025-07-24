@@ -5,6 +5,7 @@ import { useContext, useState } from 'react'
 import * as Yup from 'yup'
 import { CartContext } from '../../Context/CartContext'
 import { useNavigate } from 'react-router-dom'
+import toast from 'react-hot-toast'
 export default function Checkout({ totalPrice }) {
     // ^ Import cartId From CartContext
     let { cartId, getLoggedUserCart } = useContext(CartContext)
@@ -13,17 +14,21 @@ export default function Checkout({ totalPrice }) {
 
     //  ^ Pay Online
     async function payOnline(values) {
+        const toastId = toast.loading('Waiting')
         try {
             const { data } = await axios.post(`https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}?url=https://e-commerce-app-nine-rho.vercel.app`,
                 { shippingAddress: values },
                 { headers: { token: localStorage.getItem('token') } })
             console.log(data.session.url)
             console.log(data.session)
+            toast.success('Redirect to payment gateway')
             if (data.status == 'success') {
                 window.location.href = data.session.url
             }
         } catch (error) {
             console.log(error.message)
+        } finally {
+            toast.dismiss(toastId)
         }
     }
     // ^ pay Cash 

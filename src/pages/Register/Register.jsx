@@ -57,13 +57,13 @@ export default function Register() {
     }
     // ** Paswords && Phone Regexes 
     // !! PASSWORD && PHONE REGEXES
-    const passRegex = /^[A-Z|a-z|0-9]{5,}[A-Z][a-z]$/
+    const passRegex = /^\d{6}[A-Z]{2}[a-z]{2}$/
     const phoneRegex = /^01[0125][0-9]{8}$/
     // !! VALIDATION SCHEMA :
     const validationSchema = yup.object({
         name: yup.string().required("Name Required").min(4, "Name shoul be at least 4 chars").max(20, "Name must be less than 20 chars"),
         email: yup.string().required("Email Required").email("This field Should be right email"),
-        password: yup.string().required("Passord Required").matches(passRegex, "Must be strong number"),
+        password: yup.string().required("Passord Required").matches(passRegex, "At least 6 numbers , 2 capital letters , and 2 small letters "),
         rePassword: yup.string().required("Confirm Password Required").oneOf([yup.ref("password")], "Should mAtches password"),
         phone: yup.string().required("Phone Required").matches(phoneRegex, "Must be egyption Number")
     })
