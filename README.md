@@ -64,10 +64,10 @@ This project was developed using a modern stack of technologies to ensure optima
 **`useState` Hook:** A fundamental React Hook that allows functional components to manage and update their state.
 
  ![UseEffect](https://img.shields.io/badge/useEffect-61DAFB?style=for-the-badge&logo=react&logoColor=white)
-**`useEffect` Hook:** Used for performing side effects in functional components, such as data fetching, subscriptions, or manually changing the DOM.
+`useEffect` Hook:** Used for performing side effects in functional components, such as data fetching, subscriptions, or manually changing the DOM.
 
  ![UseParams](https://img.shields.io/badge/useParams-61DAFB?style=for-the-badge&logo=react&logoColor=white)
-**`useParams` Hook:** A React Router Hook that allows access to URL parameters (
+`useParams` Hook:** A React Router Hook that allows access to URL parameters.
 
 
 
