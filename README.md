@@ -4,6 +4,10 @@ A comprehensive React e-commerce platform featuring dynamic product listings, ca
 
 ##### 🌐 visit the website: [Fresh Cart Live Demo](https://e-commerce-app-nine-rho.vercel.app/)
 ### 🚀 Overview of project pages :
+## Home Page :
+This is the upper section of the page that contains the header and inside it the navbar, then a section dividing it, and the left part contains a swiper consisting of images and the right part contains two images.
+
+
 
 
 
