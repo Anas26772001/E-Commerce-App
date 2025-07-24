@@ -19,7 +19,16 @@ A page to display all the categories. You can get all the products that are avai
 ##### Check out Section : 
 In this section you can place an order and there is a cash or online payment option if you want.
 ![Check-Out-Page-image](Images/Check-Out-Page.png)
-##### If you want to see the other features, go to the demo link.
+## ✨ Key Features
+User Authentication: Secure user login and registration.
+Product Browse: Easily navigate through various product categories and brands.
+Search Functionality: Quickly find products using a robust search bar.
+Shopping Cart Management: Add, remove, and update quantities of items in the cart.
+Wishlist Functionality: Save favorite products for later.
+Detailed Product Views: Comprehensive information and multiple images for each product.
+Order Management: Track current and past orders.
+Responsive Design: Optimized for seamless viewing and interaction across various devices (desktop, tablet, mobile).
+
 ## 💻 Technologies Used
 
 This project was developed using a modern stack of technologies to ensure optimal performance, scalability, and an excellent user experience:
